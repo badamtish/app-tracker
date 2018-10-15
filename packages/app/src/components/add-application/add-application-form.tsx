@@ -3,7 +3,7 @@ import * as Antd from 'antd';
 import { withFormik, FormikErrors, FormikProps, Field, Form } from 'formik';
 import { Button } from '@material-ui/core';
 import { InputField } from './form-field';
-import { validApplicationSchema } from '../../utils/validation-schema/application-schema';
+import { validApplicationSchema } from '@apptrkr/common';
 import { ApplicationState } from '../../utils/models';
 import { AddApplicationMutationVariables } from '../../utils/schemas/types/mutate-types';
 

@@ -1,0 +1,5 @@
+*
+!./package.json 
+!./packages/server     
+!./packages/common/package.json 
+!./packages/common/dist 

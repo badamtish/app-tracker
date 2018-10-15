@@ -15,6 +15,7 @@ export default class Login extends React.Component<AuthProps> {
     }
 
     render() {
+        console.log(process.env.REACT_APP_SECRET_CODE);
         return (
             <div className="bgimage">
                 <div style={{ display: 'flex' }}>
