@@ -1,0 +1,19 @@
+@import '~antd/dist/antd.css';
+
+.root {
+    height: 100vh;
+    margin: 0;
+}
+
+.bgimage {
+    /* The image used */
+    background-image: url('../images/login-background.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

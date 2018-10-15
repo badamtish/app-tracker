@@ -1,0 +1,58 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.1.2",
+    "@material-ui/icons": "^3.0.1",
+    "@types/auth0-js": "^8.11.5",
+    "@types/react-bootstrap": "^0.32.14",
+    "@types/yup": "^0.24.9",
+    "antd": "^3.10.0",
+    "apollo": "^1.9.2",
+    "auth0-js": "^9.8.0",
+    "global": "^4.3.2",
+    "jsonwebtoken": "^8.3.0",
+    "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.5.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts-ts": "3.1.0",
+    "yup": "^0.26.6"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.0.1",
+    "@types/jest": "^23.3.2",
+    "@types/jsonwebtoken": "^7.2.8",
+    "@types/lodash": "^4.14.116",
+    "@types/node": "^10.11.3",
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.8",
+    "@types/react-redux": "^6.0.9",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/redux": "^3.6.0",
+    "apollo-boost": "^0.1.16",
+    "autobind-decorator": "^2.1.0",
+    "formik": "^1.3.1",
+    "graphql": "^14.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "react-apollo": "2.1.11",
+    "react-redux": "^5.0.7",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2"
+  },
+  "apollo": {
+    "schemas": {
+      "server": {
+        "endpoint": "http://localhost:4000/graphql"
+      }
+    }
+  }
+}
