@@ -41,21 +41,6 @@ const RootQuery = new GraphQLObjectType({
             args: {
                 userId: {
                     type: GraphQLID
-                }
-            },
-            resolve(parent, args) {
-                return Application.find({
-                    userId: args.userId
-                }).sort({
-                    date: 'descending'
-                });
-            }
-        },
-        applicationFilter: {
-            type: new GraphQLList(types.Application),
-            args: {
-                userId: {
-                    type: GraphQLID
                 },
                 filter: {
                     type: ApplicationStateType
